@@ -85,15 +85,36 @@ nav {
     font-size: 2rem;
 }
 
+/* Main Content */
 main {
     /* Make main context take up page any surplus space to push footer down  */
     flex: 1 0 auto;
     background-color: lightblue;
 }
 
-footer {
-    background-color: chocolate;
+main {
+    margin-top: 79px;
 }
+
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
+
 
 /* Media query: tablets and larder (768px and up) */
 @media screen and (min-width: 768px) {
@@ -128,7 +149,9 @@ footer {
 
 }
 
-/* Main Content */
-main {
-    margin-top: 79px;
+/* For screen sizes 992px and up */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
