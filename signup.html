@@ -43,20 +43,21 @@
         <h2><i class="fa-solid fa-heart-pulse"></i>Let's get you signed up!</h2>
         <form id="signup-form" type="submit" method="post" action="https://formdump.codeinstitute.net">
             <label for="fName" >First Name</label>
-            <input type="text" id="first_name" name="fname" class="text.input" required/>
+            <input type="text" id="first_name" name="fname" class="text.input" required/><br>
             <label for="lName">Last Name</label>
-            <input type="text" id="last_name" name="lName" class="text.input" required/>
+            <input type="text" id="last_name" name="lName" class="text.input" required/><br>
             <label for="email">Email Address</label>
-            <input type="email" id="email_address" name="email" class="text.input" required />
-            <div>
-                <label for="road" class="running_preference">Road</label>
-                <input type="radio" id="road" name="road" />
-                <label for="tail" class="running_preference" >Trail</label>
-                <input type="radio" id="tail" name="tail" />
-                <label for="both"  class="running_preference">Both</label>
-                <input type="radio" id="both" name="both" />
-            </div>
+            <input type="email" id="email_address" name="email" class="text.input" required /><br>
+            <div class="radio_buttons">
+                <label for="road">Road</label>
+                <input type="radio" id="road" name="running_preference" value="Road"  />
+                <label for="tail" >Trail</label>
+                <input type="radio" id="tail" name="running_preference"  value="Trail"  />
+                <label for="both" >Both</label>
+                <input type="radio" id="both" name="running_preference" value="Both" />
+             </div>
             <Button type="submit" class="join-button">Let's Run</Button>
+           
         </form>
     </main>
     <footer>
