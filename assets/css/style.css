@@ -85,6 +85,17 @@ nav {
     font-size: 2rem;
 }
 
+/* Main Content */
+main {
+    /* Make main context take up page any surplus space to push footer down  */
+    flex: 1 0 auto;
+
+}
+
+main {
+    margin-top: 79px;
+}
+
 /* Hero */
 #hero {
     height: 600px;
@@ -112,17 +123,6 @@ nav {
     color: #ffffff;
 }
 
-/* Main Content */
-main {
-    /* Make main context take up page any surplus space to push footer down  */
-    flex: 1 0 auto;
-
-}
-
-main {
-    margin-top: 79px;
-}
-
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
@@ -137,6 +137,7 @@ hr {
 
 #reasons>h2 {
     font-size: 280%;
+    text-align: center;
 }
 
 #beneifts>div {
@@ -152,13 +153,17 @@ hr {
     margin-top: 20px
 }
 
-*/
+#benefits-physical,
+#benfits-mental {
+    margin: 0 auto;
+}
 
-/* #benefits-physical {}
-
-#benefits-mental {}
 
 /* Footer */
+footer {
+    width: 100%;
+}
+
 #social-networks {
     text-align: center;
     display: flex;
@@ -166,7 +171,7 @@ hr {
     justify-content: space-evenly;
     list-style-type: none;
     padding: 20px 0;
-    background-color: red;
+
 }
 
 #social-networks i {
