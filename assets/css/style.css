@@ -25,6 +25,11 @@ h3 {
 
 }
 
+/* ulitity */
+.hidden-heading {
+    display: none;
+}
+
 header {
     width: 100%;
     position: fixed;
@@ -183,6 +188,17 @@ main {
     /* overrides heading colors set in general styles */
     color: #fafafa;
 
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* Footer */
