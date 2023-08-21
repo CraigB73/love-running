@@ -262,3 +262,35 @@ footer {
         box-shadow: none;
     }
 }
+
+@media screen and (min-width: 1200px) {
+
+
+    #benefits {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefits-image-div {
+        order: 0;
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental>div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical>div {
+        align-self: flex-end;
+    }
+
+
+}
