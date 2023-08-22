@@ -201,6 +201,25 @@ main {
     line-height: 0;
 }
 
+/* Sign-up */
+
+#signup {
+    height: 100vh;
+    background: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+#signup h2 {
+    color: #ffffff;
+    margin: 30px
+}
+
 /* Footer */
 
 footer {
