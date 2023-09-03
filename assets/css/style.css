@@ -205,19 +205,54 @@ main {
 
 #signup {
     height: 100vh;
+    padding: 20px 10px;
     background: url("../images/signup-image.webp");
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
-    display: flex;
-    flex-direction: column;
     flex-grow: 1;
 
 }
 
-#signup h2 {
+h2 {
+    color: #fafafa;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
     color: #ffffff;
-    margin: 30px
+    background-color: rgba(60, 60, 60, 0.6);
+}
+
+#signup h2 {
+    margin-bottom: 20px;
+    color: #fafafa;
+
+}
+
+.text-input {
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 0 5px;
+    background-color: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.radio_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    padding: 15px 32px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
 }
 
 /* Footer */
